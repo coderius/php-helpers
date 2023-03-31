@@ -36,8 +36,9 @@ class ArrayHelper
                         } else {
                             $result[$key] = static::getValue($object, $name);
                         }
+                        
                     }
-
+                    
                     return $recursive ? static::toArray($result, $properties) : $result;
                 }
             }

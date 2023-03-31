@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="2" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.009153">
+    <testsuite name="Unit" tests="2" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.009153">
+      <testsuite name="Tests\Unit\ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" tests="1" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.008723">
+        <testcase name="testToArray" class="Tests\Unit\ArrayHelperTest" classname="Tests.Unit.ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" line="20" assertions="2" time="0.008723"/>
+      </testsuite>
+      <testsuite name="Tests\Unit\ExampleTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ExampleTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.000430">
+        <testcase name="testBasicTest" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ExampleTest.php" line="14" assertions="1" time="0.000430"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Tests\\Unit\\ArrayHelperTest::testToArray":3,"Warning":6},"times":{"Tests\\Unit\\ExampleTest::testBasicTest":0,"Tests\\Feature\\ExampleTest::testBasicTest":0,"Tests\\Unit\\ArrayHelperTest::testBasicTest":0.006,"Tests\\Unit\\ArrayHelperTest::testToArray":0.009,"Warning":0.001}}
