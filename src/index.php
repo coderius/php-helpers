@@ -20,4 +20,19 @@ $conf = ['stdClass' => [
 
 $output = ArrayHelper::toArray($arr, $conf, $recursive = true);
 
-var_dump($output);
+$a = ['k1' => 'v1', ['k2' => 22]];
+        $b = ['d1' => 'v1', ['d2' => 2]];
+        $output = ArrayHelper::merge($a, $b);
+ 
+        print_r(['k1' => 'v1', ['k2' => 22],'d1' => 'v1', ['d2' => 2]]);        
+
+// print_r([['k1'] => 'v1',
+//     ['k1'] => 'v1',
+//     [
+//         ['k2'] => 22,
+//     ],
+//     ['d1'] => 'v1',
+//     [
+//         ['d2'] => 2,
+//     ],
+// ]);

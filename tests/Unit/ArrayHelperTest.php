@@ -55,4 +55,14 @@ class ArrayHelperTest extends TestCase
         return $object;
     }
 
+    public function testMerge()
+    {
+        $a = ['k1' => 'v1', ['k2' => 22]];
+        $b = ['d1' => 'v1', ['d2' => 2]];
+        $output = ArrayHelper::merge($a, $b);
+        $result = ['k1' => 'v1', ['k2' => 22],'d1' => 'v1', ['d2' => 2]];
+
+        $this->assertEqualsCanonicalizing($output, $result);
+    }
+
 }
