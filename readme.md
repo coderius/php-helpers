@@ -1,2 +1,2 @@
 * php-helpers
-New file/
+New file.
