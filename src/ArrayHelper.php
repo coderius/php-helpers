@@ -1,12 +1,11 @@
 <?php
-
-
 namespace PhpHelpers;
 
 use ArrayAccess;
 use Traversable;
 use PhpHelpers\Arrayable;
 use PhpHelpers\Exceptions\InvalidArgumentException;
+use PhpHelpers\StringHelper;
 
 
 class ArrayHelper

@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="3" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="0.008442">
-    <testsuite name="Unit" tests="3" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="0.008442">
-      <testsuite name="Tests\Unit\ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" tests="2" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.008059">
-        <testcase name="testToArray" class="Tests\Unit\ArrayHelperTest" classname="Tests.Unit.ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" line="20" assertions="2" time="0.007883"/>
-        <testcase name="testMerge" class="Tests\Unit\ArrayHelperTest" classname="Tests.Unit.ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" line="58" assertions="1" time="0.000176"/>
+  <testsuite name="" tests="24" assertions="33" errors="0" warnings="0" failures="0" skipped="0" time="0.012771">
+    <testsuite name="Unit" tests="24" assertions="33" errors="0" warnings="0" failures="0" skipped="0" time="0.012771">
+      <testsuite name="Tests\Unit\ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" tests="23" assertions="32" errors="0" warnings="0" failures="0" skipped="0" time="0.012691">
+        <testcase name="testToArray" class="Tests\Unit\ArrayHelperTest" classname="Tests.Unit.ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" line="12" assertions="2" time="0.009175"/>
+        <testcase name="testMerge" class="Tests\Unit\ArrayHelperTest" classname="Tests.Unit.ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" line="50" assertions="2" time="0.000415"/>
+        <testcase name="testGetValue" class="Tests\Unit\ArrayHelperTest" classname="Tests.Unit.ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" line="60" assertions="1" time="0.000111"/>
+        <testcase name="testSetValue" class="Tests\Unit\ArrayHelperTest" classname="Tests.Unit.ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" line="75" assertions="1" time="0.000091"/>
+        <testcase name="testRemove" class="Tests\Unit\ArrayHelperTest" classname="Tests.Unit.ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" line="93" assertions="1" time="0.000086"/>
+        <testcase name="testRemoveValue" class="Tests\Unit\ArrayHelperTest" classname="Tests.Unit.ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" line="101" assertions="1" time="0.000079"/>
+        <testcase name="testIndex" class="Tests\Unit\ArrayHelperTest" classname="Tests.Unit.ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" line="109" assertions="1" time="0.000081"/>
+        <testcase name="testGetColumn" class="Tests\Unit\ArrayHelperTest" classname="Tests.Unit.ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" line="128" assertions="1" time="0.000076"/>
+        <testcase name="testMap" class="Tests\Unit\ArrayHelperTest" classname="Tests.Unit.ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" line="141" assertions="2" time="0.000085"/>
+        <testcase name="testKeyExists" class="Tests\Unit\ArrayHelperTest" classname="Tests.Unit.ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" line="172" assertions="2" time="0.000331"/>
+        <testcase name="testKeyExistsInvalidArgumentException" class="Tests\Unit\ArrayHelperTest" classname="Tests.Unit.ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" line="183" assertions="1" time="0.001074"/>
+        <testcase name="testMultisort" class="Tests\Unit\ArrayHelperTest" classname="Tests.Unit.ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" line="191" assertions="2" time="0.000128"/>
+        <testcase name="testHtmlEncode" class="Tests\Unit\ArrayHelperTest" classname="Tests.Unit.ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" line="239" assertions="1" time="0.000126"/>
+        <testcase name="testHtmlDecode" class="Tests\Unit\ArrayHelperTest" classname="Tests.Unit.ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" line="251" assertions="1" time="0.000086"/>
+        <testcase name="testIsAssociative" class="Tests\Unit\ArrayHelperTest" classname="Tests.Unit.ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" line="263" assertions="1" time="0.000082"/>
+        <testcase name="testIsIndexed" class="Tests\Unit\ArrayHelperTest" classname="Tests.Unit.ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" line="269" assertions="1" time="0.000077"/>
+        <testcase name="testisIn" class="Tests\Unit\ArrayHelperTest" classname="Tests.Unit.ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" line="275" assertions="2" time="0.000093"/>
+        <testcase name="testisInInvalidArgumentException" class="Tests\Unit\ArrayHelperTest" classname="Tests.Unit.ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" line="281" assertions="1" time="0.000089"/>
+        <testcase name="testIsTraversable" class="Tests\Unit\ArrayHelperTest" classname="Tests.Unit.ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" line="288" assertions="1" time="0.000075"/>
+        <testcase name="testIsSubset" class="Tests\Unit\ArrayHelperTest" classname="Tests.Unit.ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" line="295" assertions="1" time="0.000080"/>
+        <testcase name="testIsSubsetInvalidArgumentException" class="Tests\Unit\ArrayHelperTest" classname="Tests.Unit.ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" line="301" assertions="1" time="0.000082"/>
+        <testcase name="testFilter" class="Tests\Unit\ArrayHelperTest" classname="Tests.Unit.ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" line="308" assertions="3" time="0.000088"/>
+        <testcase name="testRecursiveSort" class="Tests\Unit\ArrayHelperTest" classname="Tests.Unit.ArrayHelperTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ArrayHelperTest.php" line="342" assertions="2" time="0.000082"/>
       </testsuite>
-      <testsuite name="Tests\Unit\ExampleTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ExampleTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.000382">
-        <testcase name="testBasicTest" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ExampleTest.php" line="14" assertions="1" time="0.000382"/>
+      <testsuite name="Tests\Unit\ExampleTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ExampleTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.000080">
+        <testcase name="testBasicTest" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" file="C:\xampp\htdocs\php-helpers\tests\Unit\ExampleTest.php" line="14" assertions="1" time="0.000080"/>
       </testsuite>
     </testsuite>
   </testsuite>

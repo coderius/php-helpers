@@ -7,32 +7,8 @@ $object->text = 'Lorem ipsum... ';
 $object->desc = 'Lorem ipsum desc... ';
 $object->extra = 'extra';
 
-$arr = $object;
-        
-$conf = ['stdClass' => [
-    'text',
-    'desc',
-    'leng' => function($object) {
-        return strlen($object->extra);
-    },
-    
-]];
+$array = array("lemon", "orange", "banana", "apple");
 
-$output = ArrayHelper::toArray($arr, $conf, $recursive = true);
+$res = ArrayHelper::recursiveSort($array);
 
-$a = ['k1' => 'v1', ['k2' => 22]];
-        $b = ['d1' => 'v1', ['d2' => 2]];
-        $output = ArrayHelper::merge($a, $b);
- 
-        print_r(['k1' => 'v1', ['k2' => 22],'d1' => 'v1', ['d2' => 2]]);        
-
-// print_r([['k1'] => 'v1',
-//     ['k1'] => 'v1',
-//     [
-//         ['k2'] => 22,
-//     ],
-//     ['d1'] => 'v1',
-//     [
-//         ['d2'] => 2,
-//     ],
-// ]);
+print_r($array);
