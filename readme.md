@@ -1,8 +1,6 @@
 PHP HELPERS
 ============
 
-# Сontains helper classes:
-
 - **ArrayHelper**
 
 ### ArrayHelper usage:
@@ -29,6 +27,16 @@ PHP HELPERS
 * ArrayHelper::recursiveSort(array &$array, $sorter = null)
 
 Usage examples for ArrayHelper see in tests [tests/Unit/ArrayHelperTest.php](tests/Unit/ArrayHelperTest.php)
+
+## Installation
+
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+
+Run the command in the terminal:
+```
+composer require "coderius/php-helpers"
+```
+
 
 ## Testing
 
