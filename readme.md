@@ -1,9 +1,9 @@
-## PHP HELPERS packge
+PHP HELPERS
+============
 
-Сontains packages:
-=========================
+# Сontains helper classes:
 
- - ArrayHelper
+- **ArrayHelper**
 
 ### ArrayHelper usage:
 
