@@ -1,5 +1,5 @@
 {
-    "name": "admin/php-helpers",
+    "name": "coderius/php-helpers",
     "description": "Provides php helpers.",
     "keywords": ["php", "helpers"],
     "license": "MIT",
